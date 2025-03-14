@@ -10,7 +10,7 @@ My personal portfolio website showcasing my skills, projects, and experience. Bu
 ✔ JavaScript  
 
 ## 🌍 Live Demo  
-👉 [View Portfolio](https://github.com/muzamal478/muzamal-portfolio/)  
+👉 [View Portfolio](https://muzamal478.github.io/muzamal-portfolio/)  
 
 ## 📌 Features  
 - Fully responsive design  
