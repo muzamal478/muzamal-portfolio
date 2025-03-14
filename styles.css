@@ -37,7 +37,7 @@ body {
 
 /* Contact Section */
 #contact {
-    background-color:#0066ff; /* Dark Gray */
+    background-color:#F8F9FA;; /* Dark Gray */
     color: #ffffff;
     padding: 80px 0;
 }
@@ -109,6 +109,19 @@ section {
 
 .navbar-nav .nav-link:hover {
     color: #0066ff !important;
+}
+
+/* Responsive Navbar */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 10px 0;
+    }
+    
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
 }
 
 /* Hero Section */
@@ -190,6 +203,21 @@ section {
     transform: scale(1.05);
 }
 
+/* Responsive Design */
+@media (max-width: 991px) {
+    .hero {
+        text-align: center;
+    }
+
+    .hero .row {
+        flex-direction: column-reverse;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+    }
+}
+
 /* About Section Styling */
 .about {
     background: #f9f9f9;
@@ -212,7 +240,7 @@ section {
     display: block;
     width: 60px;
     height: 4px;
-    background: #0066ff;
+    background: #ffffff;
     margin: 8px auto;
     border-radius: 2px;
 }
@@ -296,27 +324,9 @@ section {
 }
 
 .skills h2 {
-    font-size: 3.0rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #ffffff;
-}
-.section-title-skill {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 40px;
-    position: relative;
-    display: inline-block;
-}
-
-.section-title-skill::after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 4px;
-    background: #ffffff;
-    margin: 8px auto;
-    border-radius: 2px;
 }
 
 /* General Styling */
@@ -432,6 +442,13 @@ section {
 .overlay p {
     font-size: 0.9rem;
     margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-card {
+        margin-bottom: 20px;
+    }
 }
 
 /* Qualifications & Expertise Section Styles */
@@ -564,6 +581,24 @@ section {
     font-size: 1.2rem;
 }
 
+
+@media (max-width: 768px) {
+    .qualification-box {
+        width: 100%;
+        padding: 20px;
+    }
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill {
+        width: 100%;
+    }
+    .qualification-item {
+        text-align: left;
+    }
+}
+
 /* Contact Section */
 .contact {
     background: linear-gradient(135deg, #e3f2fd, #cfd9df);
@@ -641,6 +676,17 @@ section {
     color: #0056b3;
 }
 
+@media (max-width: 768px) {
+    .contact-container {
+        width: 90%;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 100%;
+    }
+}
+
 /* Footer Styling */
 .footer {
     background: #222;
@@ -694,79 +740,24 @@ section {
     color: #007bff;
 }
 
-/* Global Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-links li {
+        margin: 5px 0;
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+    }
 }
 
-html, body {
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    background-color: #f4f4f4;
-}
 
-/* Basic Layout */
-header, footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-main {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;  /* Center the content */
-}
-
-/* Center Content */
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Container for grid items */
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-/* Card Styling */
-.card {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-}
-
-/* Responsive Navigation */
-nav {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-}
 
 /* Mobile Navigation */
 @media screen and (max-width: 768px) {
@@ -798,6 +789,38 @@ nav ul li a {
 
     header, footer {
         padding: 15px;
+    }
+
+    .hero-image {
+    width: 70%;
+    max-width: 500px;
+    border-radius: 10%;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+    justify-content: center;
+    display: inline;        
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 40px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .skill-card {
+        background: white;
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-bottom: 20px;
     }
 }
 
@@ -837,6 +860,38 @@ nav ul li a {
 
     nav.active ul {
         display: block;
+    }
+    .hero-image {
+        width: 70%;
+        max-width: 500px;
+        border-radius: 10%;
+        box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+        transition: transform 0.3s ease-in-out;
+        justify-content: center;
+        display: inline;        
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 40px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .skill-card {
+        background: white;
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        text-align: center;
+        margin: auto;
+        margin-top: auto;
+        margin-bottom: 20px;
     }
 }
 
@@ -918,5 +973,4 @@ form {
         padding: 8px;
     }
 }
-
 
