@@ -324,9 +324,27 @@ section {
 }
 
 .skills h2 {
-    font-size: 2.5rem;
+    font-size: 3.0rem;
     font-weight: bold;
     color: #ffffff;
+}
+.section-title-skill {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title-skill::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #ffffff;
+    margin: 8px auto;
+    border-radius: 2px;
 }
 
 /* General Styling */
