@@ -67,7 +67,8 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
 }
 
 .navbar-brand {
@@ -843,7 +844,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 }
 
@@ -925,7 +926,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 90%;
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
     }
 }
 
