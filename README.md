@@ -18,5 +18,5 @@ My personal portfolio website showcasing my skills, projects, and experience. Bu
 - Contact form for business inquiries  
 
 ## 📞 Contact Me  
-📧 Email: muzamalasghar47@gmail.com 
-🔗 LinkedIn: [Your LinkedIn](http://linkedin.com/in/muzamalasgharofficial)  
+📧 Email: [muzamalasghar47@gmail.com](muzamalasghar47@gmail.com )
+🔗 LinkedIn: [LinkedIn Profile here](http://linkedin.com/in/muzamalasgharofficial)  
