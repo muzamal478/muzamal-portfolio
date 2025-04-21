@@ -1,6 +1,6 @@
 # Muzamal Asghar's Portfolio
 
-![Portfolio Banner](assets/screenshot-hero.png)
+![Portfolio Banner](assets/screenshot.png)
 
 🚀 A modern, responsive portfolio website showcasing my skills, projects, and experience as a Software Engineer specializing in Web & Mobile Development and AI & Machine Learning.
 
@@ -39,21 +39,9 @@ This portfolio is a reflection of my journey as a passionate Software Engineer. 
 
 👉 [Explore the Portfolio](https://muzamal478.github.io/muzamal-portfolio/)
 
-## 📷 Screenshots
-
-| Hero Section | Skills Section | Projects Section |
-|--------------|----------------|------------------|
-| ![Hero](assets/screenshot-hero.png) | ![Skills](assets/screenshot-skills.png) | ![Projects](assets/screenshot-projects.png) |
-
 ## 🚀 Getting Started
 
 Follow these steps to set up and run the project locally.
-
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Edge, etc.)
-- Git installed on your machine
-- (Optional) A code editor like VS Code
-- (Optional) BotPenguin API key for chatbot functionality
 
 ### Installation
 
@@ -65,16 +53,8 @@ Follow these steps to set up and run the project locally.
 
 2. **Install Dependencies**:
    - No additional dependencies are required, as Bootstrap and Font Awesome are included via CDNs.
-   - Ensure you have the BotPenguin script with a valid API key:
-     ```html
-     <script src="https://cdn.botpenguin.com/bot.js?apiKey=YOUR_API_KEY"></script>
-     ```
 
-3. **Add Assets**:
-   - Place all images (e.g., `profile.jpg`, `Hero-picture.jpg`, project images) in the `assets/` folder.
-   - Verify paths in `index.html` and `styles.css`.
-
-4. **Run Locally**:
+3. **Run Locally**:
    - Open `index.html` in a browser, or use a local server for best results:
      ```bash
      npx live-server
@@ -92,32 +72,12 @@ Follow these steps to set up and run the project locally.
 ```plaintext
 muzamal-portfolio/
 ├── assets/                    # Images and other static assets
-│   ├── profile.jpg
-│   ├── Hero-picture.jpg
-│   ├── pharmacy.jpg
-│   └── ...
 ├── index.html                 # Main HTML file
 ├── styles.css                 # Custom CSS with animations and responsive design
 ├── script.js                  # JavaScript for interactivity
 ├── LICENSE                    # MIT License file
 └── README.md                  # Project documentation
 ```
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to improve this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit (`git commit -m "Add your feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a Pull Request.
-
-Please ensure your code follows the existing style and includes appropriate comments.
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact Me
 
