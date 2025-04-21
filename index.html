@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Muzamal Asghar, a Software Engineer specializing in Web & Mobile Development and AI & ML.">
     <title>Muzamal Asghar - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="assets/profile.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <!-- Logo with Profile Picture -->
-            <a class="navbar-brand d-flex align-items-center" href="#">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
                 <img src="assets/profile.jpg" alt="Muzamal Asghar" class="profile-logo">
                 Muzamal Asghar
             </a>
@@ -24,6 +24,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
@@ -33,28 +34,22 @@
         </div>
     </nav>
 
-
     <!-- Hero Section -->
-    <header id="home"  class="hero">
+    <header id="home" class="hero">
         <div class="container">
             <div class="row align-items-center">
-                <!-- Left Side: Text Content -->
                 <div class="col-lg-6 text-center text-lg-start">
                     <h1>Hello, I'm <span class="typed-text"></span></h1>
                     <p>
-                        Hi, I'm <strong>Muzamal Asghar</strong>, a passionate <strong>Software Engineer</strong> specializing in <strong>Web & Mobile App Development</strong> and <strong>AI & Machine Learning</strong>.  
-                        I create innovative, high-quality solutions that enhance user experiences and solve real-world problems.
-                    </p>                 
-                    <a href="https://drive.google.com/file/d/1jfUVSJxMY-_YBKoGUrMFbTsHGkJbCQtM/view?usp=sharing" class="btn btn-primary" download>Download CV</a>
-                    <!-- Social Media Links -->
+                        I'm <strong>Muzamal Asghar</strong>, a passionate <strong>Software Engineer</strong> specializing in <strong>Web & Mobile App Development</strong> and <strong>AI & Machine Learning</strong>. I create innovative solutions to solve real-world problems.
+                    </p>
+                    <a href="https://drive.google.com/file/d/1jfUVSJxMY-_YBKoGUrMFbTsHGkJbCQtM/view?usp=sharing" class="btn btn-primary" target="_blank">Download CV</a>
                     <div class="social-icons mt-3">
-                        <a href="https://www.linkedin.com/in/muzamalasgharofficial" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/muzamal478" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="mailto:muzamalasghar47@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/muzamalasgharofficial" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/muzamal478" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="mailto:muzamalasghar47@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
-
-                <!-- Right Side: Image -->
                 <div class="col-lg-6 text-center">
                     <img src="assets/profile.jpg" alt="Muzamal Asghar" class="hero-image">
                 </div>
@@ -62,227 +57,213 @@
         </div>
     </header>
 
-        <!-- About Me Section -->
+    <!-- About Section -->
     <section id="about" class="about py-5">
         <div class="container">
+            <center><h2 class="section-title text-center">About Me</h2></center>
             <div class="row align-items-center">
-                <!-- Profile Image -->
                 <div class="col-lg-5 text-center">
                     <img src="assets/profile.jpg" alt="Muzamal Asghar" class="profile-img img-fluid">
                 </div>
-                <!-- About Text -->
                 <div class="col-lg-7">
-                    <h2 class="section-title">About Me</h2>
                     <p class="about-text">
-                        I am <strong>Muzamal Asghar</strong>, a passionate <strong>Software Engineer</strong> specializing in Web Development, Mobile App Development, and AI & ML. I love building innovative solutions that enhance user experiences and solve real-world problems.
+                        I'm <strong>Muzamal Asghar</strong>, a dedicated Software Engineer with expertise in Web Development, Mobile Apps, and AI & ML. I’m passionate about crafting innovative solutions that enhance user experiences and solve real-world challenges.
                     </p>
                     <ul class="about-list">
                         <li><i class="fas fa-code"></i> Expert in Frontend & Backend Development</li>
                         <li><i class="fas fa-mobile-alt"></i> Skilled in Android & iOS App Development</li>
-                        <li><i class="fas fa-brain"></i> Passionate about AI & Machine Learning</li>
-                        <li><i class="fas fa-paint-brush"></i> UI/UX Enthusiast</li>
+                        <li><i class="fas fa-brain"></i> Enthusiast in AI & Machine Learning</li>
+                        <li><i class="fas fa-paint-brush"></i> Advocate for UI/UX Design</li>
                     </ul>
-                    <a href="https://drive.google.com/file/d/1jfUVSJxMY-_YBKoGUrMFbTsHGkJbCQtM/view?usp=sharing" class="btn btn-primary" download>Download CV</a>
+                    <a href="https://drive.google.com/file/d/1jfUVSJxMY-_YBKoGUrMFbTsHGkJbCQtM/view?usp=sharing" class="btn btn-primary" target="_blank">Download CV</a>
                 </div>
             </div>
         </div>
     </section>
 
-        <!-- Skills Section -->
+    <!-- Skills Section -->
     <section id="skills" class="skills py-5">
         <div class="container text-center">
             <h2 class="section-title-skill">Skills</h2>
-            <div class="row">
-                <!-- Card 1: Frontend Development -->
-                <div class="col-md-4">
-                    <div class="skill-card">
-                        <img src="assets/frontend.jpg" alt="Frontend Development">
-                        <h4>Frontend Development</h4>
-                        <p>HTML, CSS, JavaScript, React, Angular, Bootstrap</p>
-                    </div>
-                </div>
-
-                <!-- Card 2: Backend Development -->
-                <div class="col-md-4">
-                    <div class="skill-card">
-                        <img src="assets/backend.jpg" alt="Backend Development">
-                        <h4>Backend Development</h4>
-                        <p>Node.js, Flask, Django, Express.js</p>
-                    </div>
-                </div>
-
-                <!-- Card 3: Mobile Development -->
+            <div class="row g-4">
                 <div class="col-md-4">
                     <div class="skill-card">
                         <img src="assets/Appdev.jpg" alt="Mobile Development">
                         <h4>Mobile Development</h4>
                         <p>Flutter, React Native, Android (Java/Kotlin)</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;">80%</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row mt-4">
-                <!-- Card 4: AI & ML -->
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <img src="assets/frontend.jpg" alt="Frontend Development">
+                        <h4>Frontend Development</h4>
+                        <p>HTML, CSS, JavaScript, React, Angular, Bootstrap</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;">90%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-card">
+                        <img src="assets/backend.jpg" alt="Backend Development">
+                        <h4>Backend Development</h4>
+                        <p>Node.js, Flask, Django, Express.js</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 85%;">85%</div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-4">
                     <div class="skill-card">
                         <img src="assets/Ai&ML.jpg" alt="AI & Machine Learning">
                         <h4>AI & Machine Learning</h4>
                         <p>Python, TensorFlow, OpenCV, Deep Learning</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%;">75%</div>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Card 5: Databases -->
                 <div class="col-md-4">
                     <div class="skill-card">
                         <img src="assets/database.jpg" alt="Databases">
                         <h4>Databases</h4>
                         <p>SQL, PostgreSQL, Firebase, MongoDB</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;">80%</div>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Card 6: Other Skills -->
                 <div class="col-md-4">
                     <div class="skill-card">
                         <img src="assets/UXUi.jpg" alt="Other Skills">
                         <h4>Other Skills</h4>
-                        <p>Version Control (Git/GitHub), UI/UX Design, APIs</p>
+                        <p>Git/GitHub, UI/UX Design, APIs</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 85%;">85%</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row mt-4">
-                <!-- Card 7: Cloud Computing -->
                 <div class="col-md-4">
                     <div class="skill-card">
                         <img src="assets/cloud.jpg" alt="Cloud Computing">
                         <h4>Cloud Computing</h4>
                         <p>AWS, Google Cloud, Firebase</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;">70%</div>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Card 8: Cybersecurity -->
                 <div class="col-md-4">
                     <div class="skill-card">
                         <img src="assets/Cyber.jpg" alt="Cybersecurity">
                         <h4>Cybersecurity</h4>
                         <p>Encryption, Network Security, Ethical Hacking</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 65%;">65%</div>
+                        </div>
                     </div>
                 </div>
-
-                <!-- Card 9: DevOps -->
                 <div class="col-md-4">
                     <div class="skill-card">
                         <img src="assets/DevOps.jpg" alt="DevOps">
                         <h4>DevOps</h4>
                         <p>Docker, Kubernetes, CI/CD Pipelines</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;">70%</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-        <!-- Projects Section -->
-    <section class="projects-section py-5" id="projects">
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
         <div class="container">
-            <h2 class="section-title text-center mb-4">Projects</h2>
-            <p class="section-subtitle text-center mb-5">Here are some of the projects I have worked on.</p>
-
+            <h2 class="section-title text-center">Projects</h2>
+            <p class="section-subtitle text-center">Explore my work in software development and AI.</p>
             <div class="row g-4">
-                <!-- Project 1 -->
                 <div class="col-md-4">
-                    <div class="project-card">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal1">
                         <img src="assets/pharmacy.jpg" class="project-img" alt="Pharmacy Management System">
                         <div class="overlay">
                             <h3>Pharmacy Management System</h3>
-                            <p>Built in C# to manage inventory, sales, and customer records efficiently.</p>
+                            <p>Manage inventory, sales, and customer records with C#.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project 2 -->
                 <div class="col-md-4">
-                    <div class="project-card">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal2">
                         <img src="assets/library.jpg" class="project-img" alt="Library Management System">
                         <div class="overlay">
                             <h3>Library Management System</h3>
-                            <p>Developed in C# to track books, users, and borrowing history.</p>
+                            <p>Track books and users with a C# application.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project 3 -->
                 <div class="col-md-4">
-                    <div class="project-card">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal3">
                         <img src="assets/weatherapp.jpg" class="project-img" alt="Weather App UI/UX">
                         <div class="overlay">
                             <h3>Weather App UI/UX</h3>
-                            <p>Designed a modern UI for a weather app using Figma.</p>
+                            <p>Modern UI design using Figma.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project 4 -->
                 <div class="col-md-4">
-                    <div class="project-card">
-                        <img src="assets/covid.jpg" class="project-img" alt="COVID-19 Detection">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal4">
+                        <img src="assets/covid.jpg" class="project-img" alt="COVID-19 Detection System">
                         <div class="overlay">
                             <h3>COVID-19 Detection System</h3>
-                            <p>Flask-based deep learning model for X-ray analysis with 8000 images.</p>
+                            <p>Flask-based AI model for X-ray analysis.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project 5 -->
                 <div class="col-md-4">
-                    <div class="project-card">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal5">
                         <img src="assets/e-store-app1.jpg" class="project-img" alt="E-commerce App">
                         <div class="overlay">
                             <h3>E-commerce App</h3>
-                            <p>Android app with shopping cart, secure payments, and product management.</p>
+                            <p>Android app with secure payments.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project 6 -->
                 <div class="col-md-4">
-                    <div class="project-card">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal6">
                         <img src="assets/vpnapp.jpg" class="project-img" alt="VPN App">
                         <div class="overlay">
                             <h3>VPN App</h3>
-                            <p>Secure VPN application providing high-speed anonymous browsing.</p>
+                            <p>Secure, high-speed VPN application.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project 7 -->
                 <div class="col-md-4">
-                    <div class="project-card">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal7">
                         <img src="assets/edu1.jpg" class="project-img" alt="Educational App">
                         <div class="overlay">
                             <h3>Educational App</h3>
-                            <p>Flutter-based app with quizzes, video lectures, and learning resources.</p>
+                            <p>Flutter-based learning platform.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project 8 -->
                 <div class="col-md-4">
-                    <div class="project-card">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal8">
                         <img src="assets/e-store1.jpg" class="project-img" alt="E-commerce Website">
                         <div class="overlay">
                             <h3>E-commerce Website</h3>
-                            <p>Built using Angular with authentication and secure payment integration.</p>
+                            <p>Angular-based site with authentication.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project 9 -->
                 <div class="col-md-4">
-                    <div class="project-card">
+                    <div class="project-card" data-bs-toggle="modal" data-bs-target="#projectModal9">
                         <img src="assets/doc.jpg" class="project-img" alt="Technical Documentation">
                         <div class="overlay">
                             <h3>Technical Documentation</h3>
-                            <p>Writing professional project reports, system manuals, and documentation.</p>
+                            <p>Professional project reports and manuals.</p>
                         </div>
                     </div>
                 </div>
@@ -290,121 +271,259 @@
         </div>
     </section>
 
-            <!-- My Qualifications & Expertise Section -->
+    <!-- Qualifications Section -->
     <section id="qualifications" class="qualifications py-5 bg-light">
         <div class="container text-center">
             <h2 class="section-title">My Qualifications & Expertise</h2>
-
-            <!-- Education Section -->
-            <div class="qualification-box">
-                <h3 class="section-title" >Education</h3>
+            <!-- Education -->
+            <div class="qualification-box mt-5">
+                <h3 class="section-title">Education</h3>
                 <div class="qualification-item">
                     <h4>Bachelor of Science in Software Engineering</h4>
                     <p class="institution">Gujrat Institute of Management Sciences (Affiliated with Arid Agriculture University Rawalpindi)</p>
                     <p><strong>Duration:</strong> 2021 – 2025</p>
                 </div>
-
                 <div class="qualification-item">
                     <h4>Intermediate in Computer Science (ICS – Physics)</h4>
                     <p class="institution">Beaconhill College, Gujrat</p>
                     <p><strong>Duration:</strong> 2019 – 2021</p>
                 </div>
-
                 <div class="qualification-item">
                     <h4>Matriculation in Computer Science</h4>
                     <p class="institution">Govt. Islamiya Public High School, Gujrat</p>
                     <p><strong>Duration:</strong> 2017 – 2019</p>
                 </div>
             </div>
-
-            <!-- Skills Section -->
-            <div class="container text-center mt-5">
-                <h2 class="section-title">Technical Skills</h2>
-                <div class="skills-container">
-                    <div class="skill">
-                        <h4>Programming Languages</h4>
-                        <p>C#, Java, Python, JavaScript, TypeScript</p>
+            <!-- Technical Skills -->
+            <div class="mt-5">
+                <h3 class="section-title">Technical Skills</h3>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Programming Languages</h4>
+                            <p>C#, Java, Python, JavaScript, TypeScript</p>
+                        </div>
                     </div>
-                    <div class="skill">
-                        <h4>Mobile App Development</h4>
-                        <p>Flutter, React Native</p>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Mobile App Development</h4>
+                            <p>Flutter, React Native</p>
+                        </div>
                     </div>
-                    <div class="skill">
-                        <h4>Web Development</h4>
-                        <p>HTML, CSS, JavaScript, Bootstrap, AJAX</p>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Web Development</h4>
+                            <p>HTML, CSS, JavaScript, Bootstrap, AJAX</p>
+                        </div>
                     </div>
-                    <div class="skill">
-                        <h4>Databases</h4>
-                        <p>MySQL, Firebase</p>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Databases</h4>
+                            <p>MySQL, Firebase</p>
+                        </div>
                     </div>
-                    <div class="skill">
-                        <h4>Software & Tools</h4>
-                        <p>Visual Studio, Android Studio, Postman, Anaconda, Jupyter Notebook</p>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Software & Tools</h4>
+                            <p>Visual Studio, Android Studio, Postman, Anaconda, Jupyter Notebook</p>
+                        </div>
                     </div>
-                    <div class="skill">
-                        <h4>Cloud & Version Control</h4>
-                        <p>Git, GitHub, Firebase</p>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Cloud & Version Control</h4>
+                            <p>Git, GitHub, Firebase</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Certifications Section -->
-            <div class="container text-center mt-5">
-                <h2 class="section-title">Certifications & Courses</h2>
-                <ul class="certifications">
-                    <li>📜 <strong>Microsoft Office (Word, Excel, PowerPoint)</strong> – Microsoft</li>
-                    <li>📜 <strong>Flutter Application Development</strong> – Coursera</li>
-                    <li>📜 <strong>Web Development Bootcamp</strong> – Udemy</li>
-                    <li>📜 <strong>UI/UX Design Course (Figma, Adobe XD)</strong> – Coursera</li>
+            <!-- Certifications -->
+            <div class="mt-5">
+                <h3 class="section-title">Certifications & Courses</h3>
+                <ul class="certifications list-unstyled">
+                    <li><i class="fas fa-certificate"></i> Microsoft Office (Word, Excel, PowerPoint) – Microsoft</li>
+                    <li><i class="fas fa-certificate"></i> Flutter Application Development – Coursera</li>
+                    <li><i class="fas fa-certificate"></i> Web Development Bootcamp – Udemy</li>
+                    <li><i class="fas fa-certificate"></i> UI/UX Design Course (Figma, Adobe XD) – Coursera</li>
                 </ul>
             </div>
         </div>
     </section>
 
-   <!-- Contact Section -->
-<section id="contact" class="contact py-5">
-    <div class="container text-center">
-        <h2 class="section-title">Contact Me</h2>
-        <p class="section-subtitle">Have questions or want to work together? Drop me a message!</p>
-        
-        <form id="contactForm">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <textarea id="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </div>
-</section>
-
-    <!-- Footer Section -->
-<footer class="footer bg-dark text-white py-4">
-    <div class="container text-center">
-        <!-- Logo & Name -->
-        <div class="footer-logo">
-            <img src="assets/profile.jpg" alt="Muzamal Asghar" class="footer-img">
-            <h4 class="mt-2">Muzamal Asghar</h4>
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5">
+        <div class="container text-center">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Have questions or want to collaborate? Send me a message!</p>
+            <form id="contactForm" class="mx-auto">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </div>
+    </section>
 
-        <!-- Navigation Links -->
-        <ul class="footer-links list-inline">
-            <li class="list-inline-item"><a href="#about">About</a></li>
-            <li class="list-inline-item"><a href="#projects">Projects</a></li>
-            <li class="list-inline-item"><a href="#skills">Skills</a></li>
-            <li class="list-inline-item"><a href="#contact">Contact</a></li>
-        </ul>
-
-        <!-- Social Media Links -->
-        <div class="social-icons mt-3">
-            <a href="https://www.linkedin.com/in/muzamalasgharofficial" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/muzamal478" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="mailto:muzamalasghar47@gmail.com"><i class="fas fa-envelope"></i></a>
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container text-center">
+            <div class="footer-logo">
+                <img src="assets/profile.jpg" alt="Muzamal Asghar" class="footer-img">
+                <h4 class="mt-2">Muzamal Asghar</h4>
+            </div>
+            <ul class="footer-links list-inline">
+                <li class="list-inline-item"><a href="#home">Home</a></li>
+                <li class="list-inline-item"><a href="#about">About</a></li>
+                <li class="list-inline-item"><a href="#skills">Skills</a></li>
+                <li class="list-inline-item"><a href="#projects">Projects</a></li>
+                <li class="list-inline-item"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-icons mt-3">
+                <a href="https://www.linkedin.com/in/muzamalasgharofficial" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/muzamal478" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:muzamalasghar47@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="mt-3">© 2025 Muzamal Asghar. All Rights Reserved.</p>
         </div>
+    </footer>
 
-        <!-- Copyright -->
-        <p class="mt-3">&copy; 2025 Muzamal Asghar. All Rights Reserved.</p>
+    <!-- Project Modals -->
+    <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal1Label">Pharmacy Management System</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/pharmacy.jpg" class="img-fluid mb-3" alt="Pharmacy Management System">
+                    <p>A desktop application built in C# to streamline pharmacy operations. Features include inventory management, sales tracking, customer records, and automated billing. Designed with a user-friendly interface and robust database integration.</p>
+                    <p><strong>Technologies:</strong> C#, .NET, SQL Server</p>
+                </div>
+            </div>
+        </div>
     </div>
-</footer>
-
+    <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal2Label">Library Management System</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/library.jpg" class="img-fluid mb-3" alt="Library Management System">
+                    <p>A C# application for managing library operations, including book tracking, user management, and borrowing history. Features a secure login system and real-time updates.</p>
+                    <p><strong>Technologies:</strong> C#, .NET, MySQL</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal3Label">Weather App UI/UX</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/weatherapp.jpg" class="img-fluid mb-3" alt="Weather App UI/UX">
+                    <p>Designed a modern, intuitive UI for a weather application using Figma. Focused on clean design, accessibility, and user-friendly navigation.</p>
+                    <p><strong>Technologies:</strong> Figma, UI/UX Design</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal4Label">COVID-19 Detection System</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/covid.jpg" class="img-fluid mb-3" alt="COVID-19 Detection System">
+                    <p>A Flask-based deep learning model to detect COVID-19 from chest X-rays, trained on a dataset of 8000 images. Includes a web interface for easy use.</p>
+                    <p><strong>Technologies:</strong> Python, Flask, TensorFlow, OpenCV</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="projectModal5" tabindex="-1" aria-labelledby="projectModal5Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal5Label">E-commerce App</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/e-store-app1.jpg" class="img-fluid mb-3" alt="E-commerce App">
+                    <p>An Android app with features like shopping cart, secure payments, and product management. Built with a focus on performance and user experience.</p>
+                    <p><strong>Technologies:</strong> Java, Android Studio, Firebase</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="projectModal6" tabindex="-1" aria-labelledby="projectModal6Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal6Label">VPN App</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/vpnapp.jpg" class="img-fluid mb-3" alt="VPN App">
+                    <p>A secure VPN application providing high-speed anonymous browsing with robust encryption and user-friendly interface.</p>
+                    <p><strong>Technologies:</strong> Java, Android Studio, OpenVPN</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="projectModal7" tabindex="-1" aria-labelledby="projectModal7Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal7Label">Educational App</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/edu1.jpg" class="img-fluid mb-3" alt="Educational App">
+                    <p>A Flutter-based app offering quizzes, video lectures, and learning resources, designed for seamless cross-platform performance.</p>
+                    <p><strong>Technologies:</strong> Flutter, Dart, Firebase</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="projectModal8" tabindex="-1" aria-labelledby="projectModal8Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal8Label">E-commerce Website</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/e-store1.jpg" class="img-fluid mb-3" alt="E-commerce Website">
+                    <p>An Angular-based website with user authentication, product listings, and secure payment integration for a seamless shopping experience.</p>
+                    <p><strong>Technologies:</strong> Angular, TypeScript, Firebase</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="projectModal9" tabindex="-1" aria-labelledby="projectModal9Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal9Label">Technical Documentation</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/doc.jpg" class="img-fluid mb-3" alt="Technical Documentation">
+                    <p>Professional project reports, system manuals, and technical documentation written with clarity and precision.</p>
+                    <p><strong>Technologies:</strong> Microsoft Word, LaTeX</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script id="messenger-widget-b" src="https://cdn.botpenguin.com/website-bot.js" defer>6805d24536f58002e0abf9f0,6804fa7ae8179fba2e065d9e</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
